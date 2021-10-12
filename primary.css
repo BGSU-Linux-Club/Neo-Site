@@ -28,7 +28,7 @@ h1 {
   text-align: center;
   font-family: Garamond, serif;
   padding: 10px;
-  border-top-right-radius: 1em;
+  border-radius:0.5em;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
