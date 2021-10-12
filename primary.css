@@ -1,0 +1,83 @@
+/*BG Linux CSS*/
+
+/*Elements*/
+body {
+  animation: background_change 90s infinite;
+  font-family: sans-serif;
+}
+
+/* Header*/
+
+h1 {
+  font-size: 2em;
+  color: grey;
+}
+
+#banner {
+  background-color: #FFFFE0;
+  text-align: center;
+  font-family: Garamond, serif;
+  border: 10px solid #FFFFE0;
+  border-top-right-radius: 1em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  font-size: 1.5em;
+  display: inline;
+  background-color: white;
+  border: 3px solid white;
+  padding: 2px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: grey;
+}
+
+#banner a {
+  text-decoration: none;
+}
+
+/* Main Content */
+
+.central {
+  background-color: #FFFFE0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+article {
+  text-align: justified;
+}
+
+footer {
+  margin-top: 1em;
+  text-align: center;
+}
+
+/*Animation*/
+@keyframes background_change {
+  000% {
+    background: #FFC0CB;
+  }
+  050% {
+    background: #DDA0DD;
+  }
+  100% {
+    background: #FFC0CB;
+  }
+}
