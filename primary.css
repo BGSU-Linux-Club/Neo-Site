@@ -8,11 +8,11 @@ body {
 
 .pinstripebg {
   background: repeating-linear-gradient(
-    0deg,
+    8deg,
     #FFFFE0,
-    #FFFFE0 20px,
-    #FFFFFF 20px,
-    #FFFFFF 40px
+    #FFFFE0 2px,
+    #FFFFFF 2px,
+    #FFFFFF 6px
   );
 }
 
@@ -69,6 +69,8 @@ nav ul li a {
   padding: 1em;
   border-radius: 10px;
 }
+
+.central.pinstripebg{}
 
 article {
   text-align: justified;
